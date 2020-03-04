@@ -1,7 +1,7 @@
 # Predicting-Sentiment-on-Amazon-Reviews
 
 ### Executive Summary
-The data used in the task is from  Xiang Zhang's Google Drive dir, https://drive.google.com/drive/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M
+The data used in the task is from  Xiang Zhang's Google Drive dir:  amazon_review_full_csv.tar.gz https://drive.google.com/drive/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M
 <br><br>
 - Data was even 
 - Cleaned the data, then i removed stopwords, Tokenized and then indexed and padded/truncated each review
