@@ -9,7 +9,19 @@ The data used in the task is from  Xiang Zhang's Google Drive dir, https://drive
 - I also tried using CNN and RNN with Keras but found that the flexibility of building your Neural Network from scratch with Pytorch helped in getting the best accuracy and performance as compared to Keras
 <br><br>
 - Was able to get 90% accuracy in Predictions of Reviews
+<br><br>
+- Looked to see what words are most common with each Sentiment
+    
+ - Distribution of Reviews
+<img src = "img/Distribution.PNG">
+ - Positive Reviews
+<img src = "img/Positive.PNG">
+ - Negative Reviews
+<img src = "img/Negative.PNG">
+<br><br>
+
 ### Methodology
+
 1. **Business Understanding**
     - Work as part of a team whos receives the scraped/collected Textual Data and performs Sentiement Anaylsis on it.
     - Primary customers are organisations who are trying to improve their general PR as well as methods to help identify sentiment on products and services in order to improve and develop audience engagement and understanding
