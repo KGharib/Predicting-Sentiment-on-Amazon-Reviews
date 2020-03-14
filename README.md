@@ -3,15 +3,15 @@
 ### Executive Summary
 The data used in the task is from  Xiang Zhang's Google Drive dir:  amazon_review_full_csv.tar.gz https://drive.google.com/drive/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M
 <br><br>
-- Data was even 
-- Cleaned the data, then i removed stopwords, Tokenized and then indexed and padded/truncated each review
-- Used Pytorch to build my Neural Network and used an LSTM layer as is commonly used with Sentiment Analysis
-- I also tried using CNN and RNN with Keras but found that the flexibility of building your Neural Network from scratch with Pytorch helped in getting the best accuracy and performance as compared to Keras
-<br><br>
-- Was able to get 90% accuracy in Predictions of Reviews
-<br><br>
-- Looked to see what words are most common with each Sentiment
-    
+
+### Pre-Processing Steps
+- Removed 3 star Rating Reviews 
+- Changed Ratings of 2 and Below to Negative Ratings and those that were 4 and above to Positive Ratings to do a Binary Classsification
+- made sure Distribution of reviews was evenly spread between Positive and Negative so that the model can learn for both
+- Removed stopwords and made each review lower case
+- Tokenized each review
+- indexed to give each word a corrosponding integer value 
+- padded/truncated each review to ensure it is in correct format for the Neural Network
  - Distribution of Reviews
 <img src = "img/Distribution.PNG">
  - Positive Reviews
@@ -19,6 +19,15 @@ The data used in the task is from  Xiang Zhang's Google Drive dir:  amazon_revie
  - Negative Reviews
 <img src = "img/Negative.PNG">
 <br><br>
+
+
+### Model
+- Used Pytorch to build my Neural Network and used an LSTM layer as is commonly used with Sentiment Analysis
+- Also tried using CNN and RNN with Keras but found that the flexibility of building your Neural Network from scratch with Pytorch helped in getting the best accuracy and performance as compared to Keras
+<br><br>
+- Was able to get 90% accuracy in Predictions of Reviews
+<br><br>
+
 
 ### Methodology
 
